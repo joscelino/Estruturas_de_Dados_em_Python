@@ -46,12 +46,13 @@ class FilaPrioridade:
             return -1
         return self.valores[self.numero_elementos - 1]
 
+if __name__ == '__main__':
 
-fila = FilaPrioridade(5)
-print(fila.primeiro())
-fila.enfileirar(30)
-print(fila.primeiro())
-fila.enfileirar(50)
-print(fila.primeiro())
-fila.enfileirar(10)
-print(fila.primeiro())
+    fila = FilaPrioridade(5)
+    print(fila.primeiro())
+    fila.enfileirar(30)
+    print(fila.primeiro())
+    fila.enfileirar(50)
+    print(fila.primeiro())
+    fila.enfileirar(10)
+    print(fila.primeiro())

@@ -44,17 +44,18 @@ class FilaCircular:
             return -1
         return self.valores[self.inicio]
 
+if __name__ == '__main__':
 
-fila = FilaCircular(4)
-fila.enfileirar(1)
-fila.enfileirar(2)
-fila.enfileirar(3)
-print(fila.primeiro())
-print(type(fila.valores))
-print(fila.desenfileirar())
-print(fila.desenfileirar())
-print(fila.desenfileirar())
-print(fila.desenfileirar())
+    fila = FilaCircular(4)
+    fila.enfileirar(1)
+    fila.enfileirar(2)
+    fila.enfileirar(3)
+    print(fila.primeiro())
+    print(type(fila.valores))
+    print(fila.desenfileirar())
+    print(fila.desenfileirar())
+    print(fila.desenfileirar())
+    print(fila.desenfileirar())
 
 
 

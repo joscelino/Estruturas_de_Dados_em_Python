@@ -85,18 +85,19 @@ class VetorOrdenado:
 
             self.ultima_posicao -= 1
 
+if __name__ == '__main__':
 
-vetor = VetorOrdenado(5)
-vetor.imprime()
-vetor.insere(6)
-vetor.insere(4)
-vetor.insere(7)
-vetor.insere(5)
-vetor.insere(1)
-vetor.excluir(7)
-vetor.excluir(4)
-print(vetor.pesquisa_linear(9))
-print(vetor.excluir(9))
-vetor.imprime()
+    vetor = VetorOrdenado(5)
+    vetor.imprime()
+    vetor.insere(6)
+    vetor.insere(4)
+    vetor.insere(7)
+    vetor.insere(5)
+    vetor.insere(1)
+    vetor.excluir(7)
+    vetor.excluir(4)
+    print(vetor.pesquisa_linear(9))
+    print(vetor.excluir(9))
+    vetor.imprime()
 
-print(vetor.pesquisar_binaria(6))
+    print(vetor.pesquisar_binaria(6))

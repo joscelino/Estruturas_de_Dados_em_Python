@@ -96,24 +96,25 @@ class Deque:
 
         return self.valores[self.final]
 
+if __name__ == '__main__':
 
-deque = Deque(5)
-deque.insere_final(5)
-print(deque.get_final())
-print(deque.get_inicio())
-deque.insere_inicio(2)
-deque.insere_final(7)
-print(deque.get_final())
-print(deque.get_inicio())
-deque.excluir_final()
-deque.exlcuir_inicio()
-deque.insere_final(11)
-deque.insere_inicio(11)
-deque.insere_inicio(2)
-deque.insere_final(27)
-print(deque.get_final())
-print(deque.get_inicio())
-print(deque.valores)
+    deque = Deque(5)
+    deque.insere_final(5)
+    print(deque.get_final())
+    print(deque.get_inicio())
+    deque.insere_inicio(2)
+    deque.insere_final(7)
+    print(deque.get_final())
+    print(deque.get_inicio())
+    deque.excluir_final()
+    deque.exlcuir_inicio()
+    deque.insere_final(11)
+    deque.insere_inicio(11)
+    deque.insere_inicio(2)
+    deque.insere_final(27)
+    print(deque.get_final())
+    print(deque.get_inicio())
+    print(deque.valores)
 
 
 

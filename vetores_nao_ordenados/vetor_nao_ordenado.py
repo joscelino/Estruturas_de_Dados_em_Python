@@ -45,16 +45,17 @@ class VetorNaoOrdenado:
 
             self.ultima_posicao -= 1
 
+if __name__ == '__main__':
 
-vetor = VetorNaoOrdenado(4)
-vetor.imprime()
-vetor.insere(4)
-vetor.insere(3)
-vetor.insere(7)
-vetor.insere(8)
-vetor.insere(9)
-vetor.imprime()
-print(vetor.pesquisar(3))
-vetor.excluir(8)
-print(vetor.excluir(0))
-vetor.imprime()
+    vetor = VetorNaoOrdenado(4)
+    vetor.imprime()
+    vetor.insere(4)
+    vetor.insere(3)
+    vetor.insere(7)
+    vetor.insere(8)
+    vetor.insere(9)
+    vetor.imprime()
+    print(vetor.pesquisar(3))
+    vetor.excluir(8)
+    print(vetor.excluir(0))
+    vetor.imprime()

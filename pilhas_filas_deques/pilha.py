@@ -39,10 +39,10 @@ class Pilha:
         else:
             return -1
 
+if __name__ == '__main__':
 
-pilha = Pilha(5)
-
-pilha.empilhar(5)
-pilha.empilhar(3)
-pilha.desempilhar()
-print(pilha.ver_topo())
+    pilha = Pilha(5)
+    pilha.empilhar(5)
+    pilha.empilhar(3)
+    pilha.desempilhar()
+    print(pilha.ver_topo())
