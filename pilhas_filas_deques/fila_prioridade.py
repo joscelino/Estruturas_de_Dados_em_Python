@@ -46,6 +46,7 @@ class FilaPrioridade:
             return -1
         return self.valores[self.numero_elementos - 1]
 
+
 if __name__ == '__main__':
 
     fila = FilaPrioridade(5)

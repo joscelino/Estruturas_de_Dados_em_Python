@@ -39,6 +39,7 @@ class Pilha:
         else:
             return -1
 
+
 if __name__ == '__main__':
 
     pilha = Pilha(5)

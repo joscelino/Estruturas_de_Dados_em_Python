@@ -44,6 +44,7 @@ class FilaCircular:
             return -1
         return self.valores[self.inicio]
 
+
 if __name__ == '__main__':
 
     fila = FilaCircular(4)

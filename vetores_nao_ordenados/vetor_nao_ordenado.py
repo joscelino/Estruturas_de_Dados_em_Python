@@ -45,6 +45,7 @@ class VetorNaoOrdenado:
 
             self.ultima_posicao -= 1
 
+
 if __name__ == '__main__':
 
     vetor = VetorNaoOrdenado(4)
